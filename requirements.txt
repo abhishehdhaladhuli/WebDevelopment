@@ -3,12 +3,12 @@ click==8.1.8
 colorama==0.4.6
 contourpy==1.3.1
 cycler==0.12.1
-Flask==2.2.3  # Update to a version compatible with your other dependencies
-Flask-SQLAlchemy==2.5.1  # Update to a version compatible with Flask 2.x
-Flask-Migrate==3.1.0  # Added Flask-Migrate for handling migrations
+Flask==2.2.3  # Flask version compatible with your other dependencies
+Flask-SQLAlchemy==2.5.1  # Flask-SQLAlchemy version compatible with Flask 2.x and SQLAlchemy 2.x
+Flask-Migrate==3.1.0  # Flask-Migrate for handling database migrations
 fonttools==4.57.0
 greenlet==3.1.1
-gunicorn==20.1.0  # gunicorn version update for compatibility
+gunicorn==20.1.0  # Updated gunicorn version for compatibility
 itsdangerous==2.2.0
 Jinja2==3.1.6
 joblib==1.4.2
@@ -26,8 +26,8 @@ scikit-learn==1.6.1
 scipy==1.15.2
 seaborn==0.13.2
 six==1.17.0
-SQLAlchemy==2.0.40  # Update to a version compatible with Flask-SQLAlchemy
+SQLAlchemy==2.0.40  # SQLAlchemy version compatible with Flask-SQLAlchemy 2.5.1
 threadpoolctl==3.6.0
 typing_extensions==4.13.0
 tzdata==2025.2
-Werkzeug==2.2.3  # Werkzeug version update for compatibility with Flask
+Werkzeug==2.2.3  # Werkzeug version compatible with Flask 2.2.x
